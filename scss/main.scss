@@ -3,8 +3,15 @@
 @import 'base/reset';
 @import 'base/typography';
 
+@import 'utils/functions';
+
 @import 'layout/navigation';
 @import 'layout/footer';
 
 @import 'components/carousel';
 @import 'components/accordion';
+
+@import 'pages/productos';
+
+
+

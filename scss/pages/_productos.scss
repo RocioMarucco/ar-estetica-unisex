@@ -1,0 +1,21 @@
+@mixin flex ($direction, $justify, $align) {
+    display: flex;
+    flex-direction:$direction;
+    justify-content: $justify;
+    align-items: $align;
+}   
+
+.flex {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.productos {
+    @include flex(column, flex-start, center)
+}
+
+.imagenes {
+    @include flex (column, center, center)
+
+}

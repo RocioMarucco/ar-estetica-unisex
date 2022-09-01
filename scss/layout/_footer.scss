@@ -1,5 +1,8 @@
 footer {
     background-color: $color-platino;
-    color: $color-taupe-profundo;
-    font-size: 2rem;
+    font-size:2rem;
+}
+
+footer {
+    color: map-get($redes,"color")
 }

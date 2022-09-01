@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-.titulos {
+.titulos, .subtitulos {
   color: hsl(357deg, 17%, 42%);
   text-align: center;
 }
@@ -44,8 +44,11 @@ a {
 
 footer {
   background-color: hsl(75deg, 10%, 92%);
-  color: hsl(357deg, 17%, 42%);
   font-size: 2rem;
+}
+
+footer {
+  color: #f7f5f5;
 }
 
 .alturaCarousel {
@@ -55,6 +58,26 @@ footer {
 .accordion {
   --bs-accordion-active-color: black;
   --bs-accordion-btn-focus-border-color: black;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
