@@ -1,184 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Source%20Sans%20Pro:ital,wght@0,200;0,400;0,700;1,400">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>AR Estética Unisex</title>
-</head>
-<body id="Inicio">
-    <!-- HEADER -->
-    <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-md-5" href="#"> <h1 class="display-6">AR Estética Unisex</h1></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto me-5">
-              <a class="nav-link" href="./index.html">Inicio</a>
-              <a class="nav-link" href="./pages/tratamientos.html">Tratamientos</a>
-              <a class="nav-link" href="./pages/masajes.html">Masajes</a>
-              <a class="nav-link" href="./pages/productos.html">Productos</a>
-              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-            </div>
-          </nav>
-        </div>
-    </header>
-    <!-- MAIN -->
-    <main>
-        <!-- CAROUSEL -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner ">
-              <div class="carousel-item active">
-                <img src="./img/logoGrande.png" class="d-block w-100 alturaCarousel" alt="Logo/Bienvenida">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2 class="text-dark">Bienvenidos a AR Estética Unisex</h2>
-                  <p class="text-dark">En este sitio verán todas las novedades que tenemos para ustedes</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/limpiezaFacial.jpg" class="d-block w-100 alturaCarousel" alt="Tratamientos">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Tratamientos</h2>
-                  <p>Cosmetológicos - Cejas y Pestañas - Manicuría</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/masajeDescontracturante.png" class="d-block w-100 alturaCarousel" alt="Masajes">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Masajes</h2>
-                  <p>Masoterapia - Terapias Orientales - Aromaterapia</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/productos.jpg" class="d-block w-100 alturaCarousel" alt="Productos">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2 class="text-dark">Productos</h2>
-                  <p class="text-dark">Limpiadores - Exfoliantes - Máscaras - Tónicos - Principios Activos - Serums</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
-          </div>
 
-        <!-- GRILLA -->
-        <section class="container mt-5">
-            <div class="row">
-                <!-- AR TIPS -->
-                <article class="col-xs-12 col-sm-12 col-md-6 alineacion">
-                    <h2 class="titulos">AR Tips</h2>
-                        <h3 class="titulos">Rutina de SkinCare básica</h3>
-                            <p class="py-4">
-                              Seguir una rutina de limpieza facial diaria es clave para eliminar células muertas, impurezas, residuos y restos de maquillaje y proteger la piel de agentes externos.
-                              Incluye estos 5 sencillos pasos en tu rutina beauty diaria y notarás una piel más limpia, suave y luminosa. ¡Disfruta de una piel sana y radiante!
-                            </p>
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                  <h4 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Desmaquillar</button>
-                                  </h4>
-                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">¿Cuántas veces has escuchado decir que no limpiarse el maquillaje es malo y que tiene consecuencias para la piel? Y es que no desmaquillarse a diario da paso a la aparición de de granitos, puntos negros y líneas de expresión.
-                                        Por ello, desmaquillarse debe ser el primero de los pasos a seguir en una limpieza de cutis diaria. Para limpiar la piel del rostro debemos usar un producto desmaquillante específico para nuestro tipo de piel. No es lo mismo si tenemos la piel seca, mixta o grasa, cada una de ellas necesita un producto que se ajuste a sus necesidades.
-                                        Además, tienes que tener en cuenta que la piel del contorno de los ojos es muy delicada y necesita un producto especial desmaquillante para esta zona, es la mejor forma de evitar irritaciones.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h4 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Mascarilla</button>
-                                  </h4>
-                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Una vez ya tenemos la piel libre de maquillaje, lo siguiente que tenemos que hacer es aplicarnos una mascarilla acorde con tu tipo de piel, según sea seca, grasa o mixta. Eso sí, es importante aplicar la mascarilla una vez la piel esté limpia y seca. Después de ponernos la mascarilla, la dejamos actuar durante aproximadamente 15 o 20 minutos. Tal y como afirman los expertos, dejarla más tiempo del indicado por el fabricante no hará que tenga más efecto.
-                                        Porque si pensabas que las mascarillas faciales era para aplicarlas una vez a la semana, ¡estabas equivocada! La razón por la que los especialistas indican el uso de una mascarilla facial diaria no es por otra razón que para potenciar los efectos de las mismas. Y es que, teniendo en cuenta que una mascarilla hidratante y nutritiva es ideal para utilizar una vez a la semana, lo es más si lo utilizamos todos los días.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h4 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Enjuagar</button>
-                                  </h4>
-                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Pasado el tiempo recomendado de aplicación de la mascarilla, generalmente 15 o 20 minutos aproximadamente, aclara la piel del rostro con agua tibia y sécala con una toalla o disco de algodón con ligeros toquecitos.
-                                        Después, y antes de utilizar el sérum o crema nutritiva, aplica un tónico facial sobre el rostro para que ayude a refrescar, hidratar, purificar y equilibrar el pH de la piel.
-                                        ¿Por qué es importante equilibrar el pH de la piel? Porque el pH de la piel influye a la hora de evitar posibles infecciones en la piel. Asimismo, es interesante tener en cuenta que hay factores externos como los cambios de temperatura, la contaminación o el estrés que alteran los niveles de pH de la piel y pueden debilitarla.</div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h4 class="accordion-header" id="flush-headingThree">
-                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Hidratar</button>
-                                    </h4>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                      <div class="accordion-body">Después de aplicar el tónico facial y observar que la piel ya lo ha absorbido, aplica una crema hidratante de noche, pues es más profunda y reparadora que la de día. Porque sí, hay que utilizar una crema hidratante para el día, y otra más específica para la noche.
-                                        Para aplicar la crema hidratante en este cuarto paso de la limpieza de cutis diaria, realiza un suave masaje en sentido ascendente.</div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h4 class="accordion-header" id="flush-headingThree">
-                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Contorno de ojos</button>
-                                    </h4>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                      <div class="accordion-body">Pasado el tiempo recomendado de aplicación de la mascarilla, generalmente 15 o 20 minutos aproximadamente, aclara la piel del rostro con agua tibia y sécala con una toalla o disco de algodón con ligeros toquecitos.
-                                        Tal y como hemos mencionado previamente, la piel del contorno de los ojos es muy delicada, sensible y tiende a secarse e irritarse con facilidad. Y más aún, si se expone a agentes como el uso de correctores de ojeras, máscaras de pestañas o eyeliner, desmaquillantes agresivos para los ojos...
-                                        Para evitar que esto ocurra, además de, en la línea con lo que hemos comentado, utilizar un desmaquillante específico, es importante, en esa zona de los ojos, aplicar una crema específica de contorno de ojos, con ligeros toques sin arrastrar.</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="py-4">
-                              Y hasta aquí la limpieza de cutis diaria. Puedes completar tu rutina de limpieza diaria de la piel con un tratamiento facial periódico en un centro especializado como el nuestro. ¡Te esperamos!
-                            </p>
-                </article>
-                <!-- PROMO DEL MES -->
-                <article class="col-xs-12 col-sm-12 col-md-6 d-flex justify-content-center">
-                    <div class="card mx-3 p-3 border border-3" data-aos="zoom-in-up">
-                        <h2 class="card-title titulos">Promo del mes</h2>
-                        <img src="./img/masajeDescontracturanteMujer.jpg" class="card-img-top p-2 rounded-pill" alt="Masaje Descontracturante">
-                        <div class="card-body">
-                        <h3 class="titulos">Masaje Descontracturante</h3>
-                        <p class="card-text alineacion">Un masaje descontracturante es un tipo de masaje que tiene como objetivo liberar los músculos y las articulaciones para ayudarlos a funcionar en su nivel óptimo. El propósito del masaje es relajar y aflojar los músculos rígidos y tensos.
-                            Se puede administrar de varias formas: con las manos, los dedos, los codos y los antebrazos, y también con una herramienta determinada como un rodillo de espuma, ganchos o una pelota.</p>
-                        <a href="#" class="btn btn-light btn-lg btn-outline-dark">Turnos</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-          </section>
-    </main>
-    <!-- FOOTER -->
-    <footer class="container-fluid mt-5">
-      <div class="row">
-        <div>
-          <i><a class="bi-instagram col-2 offset-1" href="https://www.instagram.com/ar_estetica.unisex/"></a></i>
-          <i><a class="bi-facebook col-2" href=""></a></i>
-          <i><a class="bi-whatsapp col-2" href=""></a></i>
-          <i><a class="bi-arrow-up-circle col-2 offset-4" href="#Inicio"></a></i>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gabinete de estética unisex en Villa General Belgrano, Córdoba">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favicon.ico">
+  <link rel="stylesheet"
+    href="https://fonts.google.com/share?selection.family=Source%20Sans%20Pro:ital,wght@0,200;0,400;0,700;1,400">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>AR Estética Unisex</title>
+</head>
+
+<body id="inicio">
+  <!-- HEADER -->
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <h1 class="display-6 titulos">AR Estética Unisex</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto me-5">
+          <a class="nav-link" href="./index.html">Inicio</a>
+          <a class="nav-link" href="./pages/tratamientos.html">Tratamientos</a>
+          <a class="nav-link" href="./pages/masajes.html">Masajes</a>
+          <a class="nav-link" href="./pages/productos.html">Productos</a>
+          <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <!-- CAROUSEL -->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="./img/logoGrande.png" class="d-block w-100 alturaCarousel" alt="Logo/Bienvenida">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="text-dark">Bienvenidos</h2>
+            <p class="text-dark">En este sitio verán todas las novedades que tenemos para ustedes</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/limpiezaFacial.jpg" class="d-block w-100 alturaCarousel" alt="Tratamientos">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Tratamientos</h2>
+            <p>Cosmetológicos - Cejas y Pestañas - Manicuría</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/masajeDescontracturante.png" class="d-block w-100 alturaCarousel" alt="Masajes">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Masajes</h2>
+            <p>Masoterapia - Terapias Orientales - Aromaterapia</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/productos.jpg" class="d-block w-100 alturaCarousel" alt="Productos">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="text-dark">Productos</h2>
+            <p class="text-dark">Limpiadores - Exfoliantes - Máscaras - Tónicos - Principios Activos - Serums</p>
+          </div>
         </div>
       </div>
-    </footer>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+    <!-- GRILLA -->
+    <section class="container mt-5">
+      <div class="row">
+        <!-- AR TIPS -->
+        <article class="col-xs-12 col-sm-12 col-md-6 alineacion">
+          <h2 class="titulos">AR Tips</h2>
+          <h3 class="titulos">Rutina de SkinCare básica</h3>
+          <p class="py-4">
+            Seguir una rutina de limpieza facial diaria es clave para eliminar células muertas, impurezas, residuos y
+            restos de maquillaje y proteger la piel de agentes externos.
+            Incluye estos 5 sencillos pasos en tu rutina beauty diaria y notarás una piel más limpia, suave y luminosa.
+            ¡Disfruta de una piel sana y radiante!
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlush">
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false"
+                  aria-controls="flush-collapseOne">Desmaquillar</button>
+              </h4>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">¿Cuántas veces has escuchado decir que no limpiarse el maquillaje es malo y
+                  que tiene consecuencias para la piel? Y es que no desmaquillarse a diario da paso a la aparición de de
+                  granitos, puntos negros y líneas de expresión.
+                  Por ello, desmaquillarse debe ser el primero de los pasos a seguir en una limpieza de cutis diaria.
+                  Para limpiar la piel del rostro debemos usar un producto desmaquillante específico para nuestro tipo
+                  de piel. No es lo mismo si tenemos la piel seca, mixta o grasa, cada una de ellas necesita un producto
+                  que se ajuste a sus necesidades.
+                  Además, tienes que tener en cuenta que la piel del contorno de los ojos es muy delicada y necesita un
+                  producto especial desmaquillante para esta zona, es la mejor forma de evitar irritaciones.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                  aria-controls="flush-collapseTwo">Mascarilla</button>
+              </h4>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">Una vez ya tenemos la piel libre de maquillaje, lo siguiente que tenemos que
+                  hacer es aplicarnos una mascarilla acorde con tu tipo de piel, según sea seca, grasa o mixta. Eso sí,
+                  es importante aplicar la mascarilla una vez la piel esté limpia y seca. Después de ponernos la
+                  mascarilla, la dejamos actuar durante aproximadamente 15 o 20 minutos. Tal y como afirman los
+                  expertos, dejarla más tiempo del indicado por el fabricante no hará que tenga más efecto.
+                  Porque si pensabas que las mascarillas faciales era para aplicarlas una vez a la semana, ¡estabas
+                  equivocada! La razón por la que los especialistas indican el uso de una mascarilla facial diaria no es
+                  por otra razón que para potenciar los efectos de las mismas. Y es que, teniendo en cuenta que una
+                  mascarilla hidratante y nutritiva es ideal para utilizar una vez a la semana, lo es más si lo
+                  utilizamos todos los días.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false"
+                  aria-controls="flush-collapseThree">Enjuagar</button>
+              </h4>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">Pasado el tiempo recomendado de aplicación de la mascarilla, generalmente 15
+                  o 20 minutos aproximadamente, aclara la piel del rostro con agua tibia y sécala con una toalla o disco
+                  de algodón con ligeros toquecitos.
+                  Después, y antes de utilizar el sérum o crema nutritiva, aplica un tónico facial sobre el rostro para
+                  que ayude a refrescar, hidratar, purificar y equilibrar el pH de la piel.
+                  ¿Por qué es importante equilibrar el pH de la piel? Porque el pH de la piel influye a la hora de
+                  evitar posibles infecciones en la piel. Asimismo, es interesante tener en cuenta que hay factores
+                  externos como los cambios de temperatura, la contaminación o el estrés que alteran los niveles de pH
+                  de la piel y pueden debilitarla.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false"
+                  aria-controls="flush-collapseThree">Hidratar</button>
+              </h4>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">Después de aplicar el tónico facial y observar que la piel ya lo ha
+                  absorbido, aplica una crema hidratante de noche, pues es más profunda y reparadora que la de día.
+                  Porque sí, hay que utilizar una crema hidratante para el día, y otra más específica para la noche.
+                  Para aplicar la crema hidratante en este cuarto paso de la limpieza de cutis diaria, realiza un suave
+                  masaje en sentido ascendente.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false"
+                  aria-controls="flush-collapseThree">Contorno de ojos</button>
+              </h4>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">Pasado el tiempo recomendado de aplicación de la mascarilla, generalmente 15
+                  o 20 minutos aproximadamente, aclara la piel del rostro con agua tibia y sécala con una toalla o disco
+                  de algodón con ligeros toquecitos.
+                  Tal y como hemos mencionado previamente, la piel del contorno de los ojos es muy delicada, sensible y
+                  tiende a secarse e irritarse con facilidad. Y más aún, si se expone a agentes como el uso de
+                  correctores de ojeras, máscaras de pestañas o eyeliner, desmaquillantes agresivos para los ojos...
+                  Para evitar que esto ocurra, además de, en la línea con lo que hemos comentado, utilizar un
+                  desmaquillante específico, es importante, en esa zona de los ojos, aplicar una crema específica de
+                  contorno de ojos, con ligeros toques sin arrastrar.</div>
+              </div>
+            </div>
+          </div>
+          <p class="py-4">
+            Y hasta aquí la limpieza de cutis diaria. Puedes completar tu rutina de limpieza diaria de la piel con un
+            tratamiento facial periódico en un centro especializado como el nuestro. ¡Te esperamos!
+          </p>
+        </article>
+        <!-- PROMO DEL MES -->
+        <article class="col-xs-12 col-sm-12 col-md-6 d-flex justify-content-center">
+          <div class="card mx-3 p-3 border border-3" data-aos="zoom-in-up">
+            <h2 class="card-title titulos">Promo del mes</h2>
+            <img src="./img/masajeDescontracturanteMujer.jpg" class="card-img-top p-2 rounded-pill"
+              alt="Masaje Descontracturante">
+            <div class="card-body">
+              <h3 class="titulos">Masaje Descontracturante</h3>
+              <p class="card-text alineacion">Un masaje descontracturante es un tipo de masaje que tiene como objetivo
+                liberar los músculos y las articulaciones para ayudarlos a funcionar en su nivel óptimo. El propósito
+                del masaje es relajar y aflojar los músculos rígidos y tensos.
+                Se puede administrar de varias formas: con las manos, los dedos, los codos y los antebrazos, y también
+                con una herramienta determinada como un rodillo de espuma, ganchos o una pelota.</p>
+              <a href="https://wa.me/5493512310369" class="btn btn-light btn-lg btn-outline-dark">Turnos</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="container-fluid mt-5">
+    <div class="row">
+      <div>
+        <i><a class="bi-instagram col-2 offset-1" href="https://www.instagram.com/ar_estetica.unisex/"></a></i>
+        <i><a class="bi-facebook col-2" href="https://www.facebook.com/"></a></i>
+        <i><a class="bi-whatsapp col-2"
+            href="https://wa.me/5493512310369?text=Hola,%20solicito%20información%20sobre%20sus%20servicios"></a></i>
+        <i><a class="bi-arrow-up-circle col-2 offset-4" href="#inicio"></a></i>
+      </div>
+    </div>
+  </footer>
 
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

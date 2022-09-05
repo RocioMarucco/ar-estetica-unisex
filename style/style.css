@@ -11,6 +11,11 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 572px) {
+  .container {
+    width: 90%;
+  }
+}
 a {
   color: hsl(357deg, 17%, 42%);
   text-decoration: none;
