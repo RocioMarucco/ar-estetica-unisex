@@ -1,4 +1,5 @@
 .accordion {
-    --bs-accordion-active-color: black;
-    --bs-accordion-btn-focus-border-color: black;
+    --bs-accordion-active-color: $color-taupe-profundo;
+    --bs-accordion-btn-focus-border-color: $color-taupe-profundo;
+    --bs-accordion-active-bg:$color-cinereous;
 }
