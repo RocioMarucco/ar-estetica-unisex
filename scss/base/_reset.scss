@@ -3,13 +3,25 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: 'Bad Script', cursive;
+    font-size: large;
+    list-style: none;
 }
 
 .btn {
     display:flex;
     justify-content: center;
 }
+
+.boton {
+    color: $color-taupe-profundo;
+    background-color:$color-alabastro;
+    border: solid 3px $color-lobo-de-madera;
+    border-radius: 20px;
+    text-align: center;
+    position: fixed;
+} 
+
 
 @media screen and (max-width: 572px) {
     .container {

@@ -1,6 +1,10 @@
 a {
     color: $color-taupe-profundo;
     text-decoration: none;
+    font-size: xx-large;
+    &:hover {
+        color:black;
+    }
 }
 
 .titulos {

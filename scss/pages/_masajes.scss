@@ -1,0 +1,17 @@
+.videosMasajes {
+    @media (min-width: 332px){
+        width: 250px;
+        height: auto;
+    }
+
+    @media (min-width: 332px) and (max-width: 768px){
+        width: 300px;
+        height: auto;
+    }
+
+    @media (min-width: 768px){
+        width: 500px;
+        height: 400px;
+
+    }
+}
