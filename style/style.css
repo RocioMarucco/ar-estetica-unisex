@@ -141,7 +141,13 @@ footer p {
     height: auto;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  .videosMasajes {
+    width: 400px;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
   .videosMasajes {
     width: 500px;
     height: 400px;
