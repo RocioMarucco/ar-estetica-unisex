@@ -1,0 +1,26 @@
+.articulosContacto {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.iconosContacto {
+    font-size: 3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.container {
+    @media (min-width: 1200px) {
+        max-width: 1300px;
+    }
+}
+
+.ubicacion {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}

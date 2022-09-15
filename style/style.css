@@ -45,6 +45,7 @@ a:hover {
 .subtitulos {
   color: hsl(358deg, 13%, 60%);
   list-style-type: none;
+  text-align: center;
 }
 
 .alineacion {
@@ -165,6 +166,33 @@ footer p {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
+}
+
+.articulosContacto {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+.iconosContacto {
+  font-size: 3rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+.ubicacion {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
