@@ -9,7 +9,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: center ;
+    align-items: center;
 }
 
 .container {
@@ -23,4 +23,11 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.fotoTerapeuta {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 35px 24px 12px 5px rgba(0,0,0,0);
 }

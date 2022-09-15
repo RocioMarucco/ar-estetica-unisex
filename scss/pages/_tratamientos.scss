@@ -1,6 +1,6 @@
 .imagenesTratamientos {
-    border-radius: 20px;box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 35px 24px 12px 5px rgba(0,0,0,0);
-    justify-content: center;
+    border-radius: 20px;
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 35px 24px 12px 5px rgba(0,0,0,0);
     @media (max-width: 576px) {
          width: 310px;
          height: auto;
@@ -14,7 +14,7 @@
 
 .flex {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
