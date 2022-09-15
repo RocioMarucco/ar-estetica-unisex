@@ -1,157 +1,170 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: "Bad Script", cursive;
-    font-size: large;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Bad Script", cursive;
+  font-size: large;
+  list-style: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  color: hsl(357deg, 17%, 42%);
+  background-color: hsl(51deg, 18%, 92%);
+  border: solid 3px hsl(9deg, 15%, 83%);
+  border-radius: 20px;
+  text-align: center;
+  position: fixed;
+  padding: 5px;
+}
+
+@media screen and (max-width: 572px) {
+  .container {
+    width: 90%;
   }
-  
-  .btn {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .boton {
-    color: hsl(357deg, 17%, 42%);
-    background-color: hsl(51deg, 18%, 92%);
-    border: solid 3px hsl(9deg, 15%, 83%);
-    border-radius: 20px;
-    text-align: center;
-    position: fixed;
-  }
-  
-  @media screen and (max-width: 572px) {
-    .container {
-      width: 90%;
-    }
-  }
-  a {
-    color: hsl(357deg, 17%, 42%);
-    text-decoration: none;
-    font-size: xx-large;
-  }
-  a:hover {
-    color: black;
-  }
-  
-  .titulos {
-    color: hsl(357deg, 17%, 42%);
-    text-align: center;
-  }
-  
-  .subtitulos {
-    color: hsl(358deg, 13%, 60%);
-    list-style-type: none;
-  }
-  
-  .alineacion {
-    text-align: justify;
-  }
-  
-  .navbar-brand {
-    color: hsl(357deg, 17%, 42%);
-    font-weight: bold;
-  }
-  
-  .nav-link {
-    color: hsl(357deg, 17%, 42%);
-    transition: text-shadow 2s ease;
-  }
-  .nav-link:hover {
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  
-  footer {
-    background-color: hsl(75deg, 10%, 92%);
-    color: hsl(357deg, 17%, 42%);
-    font-size: 2rem;
-    height: 10rem;
-  }
-  footer p {
-    text-align: center;
-  }
-  
-  .contenedorFooter {
-    height: 10rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .hover {
-    transition: all 2s ease;
-  }
-  .hover:hover {
-    transform: scale 2, 2;
-    color: hsl(358deg, 13%, 60%);
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  
-  .alturaCarousel {
-    height: 30rem;
-  }
-  
-  .accordion {
-    --bs-accordion-active-color: $color-taupe-profundo;
-    --bs-accordion-btn-focus-border-color: $color-taupe-profundo;
-    --bs-accordion-active-bg:$color-cinereous;
-  }
-  
+}
+a {
+  color: hsl(357deg, 17%, 42%);
+  text-decoration: none;
+  font-size: xx-large;
+}
+a:hover {
+  color: black;
+}
+
+.titulos {
+  color: hsl(357deg, 17%, 42%);
+  text-align: center;
+}
+
+.subtitulos {
+  color: hsl(358deg, 13%, 60%);
+  list-style-type: none;
+}
+
+.alineacion {
+  text-align: justify;
+}
+
+.navbar-brand {
+  color: hsl(357deg, 17%, 42%);
+  font-weight: bold;
+}
+
+.nav-link {
+  color: hsl(357deg, 17%, 42%);
+  transition: text-shadow 2s ease;
+}
+.nav-link:hover {
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+footer {
+  background-color: hsl(75deg, 10%, 92%);
+  color: hsl(357deg, 17%, 42%);
+  font-size: 2rem;
+  height: 10rem;
+}
+footer p {
+  text-align: center;
+}
+
+.contenedorFooter {
+  height: 10rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hover {
+  transition: all 2s ease;
+}
+.hover:hover {
+  transform: scale 2, 2;
+  color: hsl(358deg, 13%, 60%);
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.alturaCarousel {
+  height: 30rem;
+}
+
+.accordion {
+  --bs-accordion-active-color: $color-taupe-profundo;
+  --bs-accordion-btn-focus-border-color: $color-taupe-profundo;
+  --bs-accordion-active-bg:$color-cinereous;
+}
+
+.imagenesTratamientos {
+  border-radius: 20px;
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 35px 24px 12px 5px rgba(0, 0, 0, 0);
+  justify-content: center;
+}
+@media (max-width: 576px) {
   .imagenesTratamientos {
-    border-radius: 20px;
-    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 35px 24px 12px 5px rgba(0, 0, 0, 0);
-    justify-content: center;
+    width: 310px;
+    height: auto;
   }
-  @media (max-width: 576px) {
-    .imagenesTratamientos {
-      width: 310px;
-      height: auto;
-    }
+}
+@media (min-width: 576px) {
+  .imagenesTratamientos {
+    width: 360px;
+    height: 300px;
   }
-  @media (min-width: 576px) {
-    .imagenesTratamientos {
-      width: 360px;
-      height: 300px;
-    }
+}
+
+.flex {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listaTratamientos {
+  text-align: center;
+}
+
+@media (min-width: 332px) {
+  .videosMasajes {
+    width: 250px;
+    height: auto;
   }
-  
-  .flex {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+}
+@media (min-width: 332px) and (max-width: 768px) {
+  .videosMasajes {
+    width: 300px;
+    height: auto;
   }
-  
-  .listaTratamientos {
-    text-align: center;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .videosMasajes {
+    width: 400px;
+    height: auto;
   }
-  
-  @media (min-width: 332px) {
-    .videosMasajes {
-      width: 250px;
-      height: auto;
-    }
+}
+@media (min-width: 992px) {
+  .videosMasajes {
+    width: 500px;
+    height: 400px;
   }
-  @media (min-width: 332px) and (max-width: 768px) {
-    .videosMasajes {
-      width: 300px;
-      height: auto;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 992px) {
-    .videosMasajes {
-      width: 400px;
-      height: auto;
-    }
-  }
-  @media (min-width: 992px) {
-    .videosMasajes {
-      width: 500px;
-      height: 400px;
-    }
-  }
-  
-  /*# sourceMappingURL=style.css.map */
+}
+
+.card {
+  --bs-card-spacer-y: 0;
+  --bs-card-spacer-x: 0;
+  --bs-card-height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=style.css.map */

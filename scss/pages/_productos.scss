@@ -1,0 +1,11 @@
+.card {
+    --bs-card-spacer-y: 0;
+    --bs-card-spacer-x: 0;
+    --bs-card-height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
