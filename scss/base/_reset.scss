@@ -23,9 +23,7 @@
     padding: 5px;
 } 
 
+.container {
+    max-width: 95%;
+}
 
-@media screen and (max-width: 572px) {
-    .container {
-      width: 90%;
-    }
-  }

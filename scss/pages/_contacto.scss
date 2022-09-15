@@ -12,12 +12,6 @@
     align-items: center;
 }
 
-.container {
-    @media (min-width: 1200px) {
-        max-width: 1300px;
-    }
-}
-
 .ubicacion {
     display: flex;
     flex-flow: column nowrap;
